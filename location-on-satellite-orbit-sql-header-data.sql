@@ -9,6 +9,8 @@ CREATE TABLE `location_on_satellite_orbit_header_data`
   `Address2`                      varchar(60) DEFAULT NULL,
   `Address3`                      varchar(60) DEFAULT NULL,
   `Comment`                       varchar(255) DEFAULT NULL,
+  `CreatedDateTime`               varchar(20) DEFAULT NULL,
+  `LastModifiedDateTime`          varchar(20) DEFAULT NULL,
     PRIMARY KEY (`Satellite`, `LocationID`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;
